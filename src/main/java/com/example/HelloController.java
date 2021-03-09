@@ -1,8 +1,9 @@
 package com.example;
+
 import io.micronaut.http.annotation.*;
 
-@Controller("/lol")
-public class LolController {
+@Controller("/hello")
+public class HelloController {
 
     @Get(uri="/", produces="text/plain")
     public String index() {
