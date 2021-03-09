@@ -8,7 +8,7 @@ import javax.inject.Inject;
 import static org.junit.jupiter.api.Assertions.*;
 
 @MicronautTest
-public class HelloControllerTest {
+public class LolControllerTest {
 
     @Inject
     @Client("/")
