@@ -16,6 +16,6 @@ public class LolControllerTest {
 
     @Test
     public void testIndex() throws Exception {
-        assertEquals(HttpStatus.OK, client.toBlocking().exchange("/hello").status());
+        assertEquals(HttpStatus.OK, client.toBlocking().exchange("/lol").status());
     }
 }
